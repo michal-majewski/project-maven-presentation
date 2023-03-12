@@ -1,5 +1,7 @@
 package com.greenkiwi.project.presentation;
 
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 import java.util.Random;
 import java.util.random.RandomGenerator;
@@ -10,6 +12,7 @@ import static com.greenkiwi.project.presentation.NotificationCategory.*;
  * @author Michal_Majewski
  */
 
+@Component
 final class Notifier {
 
     private final List<Notification> notifications;
