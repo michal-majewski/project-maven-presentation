@@ -9,6 +9,7 @@ import static com.greenkiwi.project.presentation.NotificationCategory.*;
 /**
  * @author Michal_Majewski
  */
+
 final class Notifier {
 
     private final List<Notification> notifications;
@@ -16,9 +17,9 @@ final class Notifier {
 
     Notifier() {
         this.notifications = List.of(
-                new Notification(NotificationCategory.URGENT, "The Huge Thunderstorm is coming!!!"),
-                new Notification(NotificationCategory.GENERAL, "Something ordinary..."),
-                new Notification(NotificationCategory.FINANCES, "Installments are getting higher!!!")
+                new Notification(URGENT, "The Huge Thunderstorm is coming!!!"),
+                new Notification(GENERAL, "Something ordinary..."),
+                new Notification(FINANCES, "Installments are getting higher!!!")
         );
         randomGenerator = new Random();
     }

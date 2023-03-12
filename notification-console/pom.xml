@@ -41,7 +41,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>com.greenkiwi.project.presentation.App</mainClass>
+              <mainClass>com.greenkiwi.project.presentation.ConsoleApp</mainClass>
             </manifest>
           </archive>
         </configuration>
